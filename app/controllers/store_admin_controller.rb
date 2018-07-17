@@ -1,4 +1,5 @@
 class StoreAdminController < ApplicationController
+  
   get '/home' do
     render :layout => "admin"
   end
