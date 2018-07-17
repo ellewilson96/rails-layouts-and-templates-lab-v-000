@@ -1,3 +1,5 @@
 class StaticController < ApplicationController
-    render 'home'
+  def home
+    render :home => "static"
+  end
 end
